@@ -1,0 +1,19 @@
+{
+    "name": "hdvianna/php-entities",
+    "description": "A php package with miscellaneous entities and their rules.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrique Damasceno Vianna",
+            "email": "hdvianna@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"hdvianna\\": "src/"}
+    }
+}
