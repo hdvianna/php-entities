@@ -3,6 +3,7 @@
     "description": "A php package with miscellaneous entities and their rules.",
     "type": "library",
     "require-dev": {
+        "php" : "~7.4",
         "phpunit/phpunit": "^9"
     },
     "license": "MIT",
