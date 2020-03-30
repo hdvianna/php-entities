@@ -10,4 +10,4 @@ A php package with miscellaneous entities and their rules.
 - CPF: Brazilian individual taxpayer registry identification. This entity enforces the creation of valid CPFs
   - Usage: ``````new CPF(<String composed by 11 numbers>);``````
   - Example #1: ``````new CPF("28228228244"); //A valid CPF``````
-  - Example #2: ``````new CPF("28228228245"); //An invalid CPF. Will throw a  InvalidCPFCheckDigitException.``````
+  - Example #2: ``````new CPF("28228228245"); //An invalid CPF. Will throw an InvalidCPFCheckDigitException.``````
